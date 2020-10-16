@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table{
+          background-color:lightgreen;
+          
+      }
+      td{
+         border:1px solid white;
+         padding:10px;
+      }
+      fieldset{
+        background-color:yellowgreen;
+        border:1px solid yellowgreen;
+        border-radius:
+    }
+
+    input[type="submit"]{
+       border-radius:10px;
+       border:none;
+       background-color:green;
+       color:white;
+       width:70px;
+       height:25px;
+       text-align: center;
+    }
+    div{
+        border-radius:20px;
+        background-color:yellowgreen;
+        
+    }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <table>
+                <tr>
+                    <td> 1. 아이디
+                        <input type="text" id="userId"></td>
+                </tr>
+                <tr>
+                    <td> 2. 비밀번호
+                        <input type="password" id="userPwd"></td>
+                </tr>
+                <tr>
+                    <td>3. 비밀번호 확인
+                        <input type="password" id="checkPwd"></td>
+                </tr>
+               
+                <tr>
+                    <td>  4. 회원 등급
+                        <input type="text" id="userRank" placeholder="준회원"></td>
+                </tr>
+            </table>
+          
+        </fieldset>
+        <fieldset>
+            <legend>개인정보</legend>
+            <table>
+                <tr>
+                    <td> 1. 이름
+                        <input type="text" id="userName" placeholder="5자미만 공백없이"></td>
+                </tr>
+               <tr>
+                   <td>2. 메일 주소
+                    <input type="email" id="userEmail" placeholder="abcd@domain.com"></td>
+               </tr>
+               
+               <tr>
+                   <td> 3. 연락처
+                    <input type="tel" id="phone"></td>
+               </tr>
+        
+            </table>
+           
+        </fieldset>
+        <fieldset>
+            <legend>코딩 숙련도(상, 중, 하)</legend>
+           <table>
+               <tr>
+                   <td>1. <input type="range" name="point" min="1" max="3"></td>
+               </tr>
+           </table>
+        </fieldset>
+          <fieldset>
+            <td><input type="submit"></td>
+          </fieldset>
+             
+            </table>
+          
+    </div>
+  
+  
+
+</body>
+</html>

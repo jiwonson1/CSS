@@ -1,0 +1,21 @@
+fieldset{
+    background-color:salmon;
+}
+legend{
+   font-weight:bold;
+}
+#div1{
+    background-color:pink;
+    width: 70%;
+    border:40px;
+    padding:20px;
+    border-radius:10px;
+
+}
+button{
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    background-color:red;
+
+}
